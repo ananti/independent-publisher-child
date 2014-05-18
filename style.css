@@ -1,0 +1,124 @@
+/*
+ Theme Name:   Independent Publisher Child
+ Theme URI:    -
+ Description:  Independent Publisher Child
+ Author:       Ananti Sunny
+ Author URI:   http://isengkoding.com
+ Template:     independent-publisher
+ Version:      1.0.0
+ Tags:         light, dark, responsive-layout, accessibility-ready
+ Text Domain:  independent-publisher-child
+*/
+
+@import url("../independent-publisher/style.css");
+
+/* -------------------------------------------------------------- */
+body {
+    background-color: #141414;
+    color: #e5e5e5;
+}
+
+#page {
+    background-color:  #141414;
+}
+
+a {
+    color: #7fff76;
+}
+
+.site-published {
+    color: #e5e5e5;
+}
+
+.site-title {
+    color: #fff286;
+}
+
+.entry-title a, .entry-title {
+    text-align: right;
+    color: #fff286;
+    font-size: 1.3em;
+}
+
+.entry-title a:hover {
+    color: #7fff76;
+}
+
+.entry-content {
+    color: #e5e5e5;
+    font-size: 70%;
+    font-family: "lucida console";
+    hyphens: none !important;
+    -moz-hyphens: none !important;
+}
+
+.site-description {
+    color: #ffffff;
+}
+
+.entry-meta {
+    color: #ffffff;
+    font-family: "lucida console";
+    margin-top: 50px;
+}
+
+.single .entry-meta, .page .entry-meta {
+    border-top: 5px solid #ffffff;
+}
+
+.comments-link a, .edit-link a{
+    color: #fff286;
+    font-family: "lucida console";
+}
+
+.comments-link a:hover, .edit-link a:hover {
+    color: #000000;
+    text-decoration: line-through;
+    background-color: #7fff76;
+}
+
+.commentlist .thread-even, .commentlist .thread-odd {
+    border-bottom: 3px solid #ffffff;
+    border-top: 0;
+    border-left: 0;
+}
+
+.commentlist .thread-even ul.children, .commentlist .thread-odd ul.children {
+    border-top: 0;
+    border-left: 0;
+}
+
+.fn {
+    color: #ffffff;
+}
+
+.comment-content {
+    color: #fff286;
+    font-family: "lucida console";
+    font-size: 70%;
+}
+
+.comment .reply a {
+    font-family: "lucida console";
+    font-size: 65%;
+}
+
+.main-navigation a, .widget-area ul li a {
+    color: #7fff76;
+}
+
+.blog article, .archive article, .search article {
+    border-bottom: 5px solid #ffffff;
+}
+
+.widget-title {
+    color: #e5e5e5;
+}
+
+.icon {
+    height: 35px !important;
+    margin-left: 5px;
+}
+.site-info {
+    float: right;
+}
